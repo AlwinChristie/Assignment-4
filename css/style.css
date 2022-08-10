@@ -1,0 +1,80 @@
+body{
+    margin: 0%;
+    background-color: rgb(100, 100, 100);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+}
+
+h3{
+    font-size: 35px;
+    font-family: 'Calibri';
+}
+
+label{
+    font-size: 25px;
+    font-family: 'Calibri';
+}
+
+#category{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#section-choose{
+    margin-left: 1%;
+    font-size: 25px;
+    border: solid 3px black;
+    text-align: center;
+}
+
+#btn{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;        
+}
+
+.top-stories{
+    padding: 5px;
+    font-size: 25px;
+    font-family: 'Calibri';
+    border-radius: 2%;
+    background-color: white;
+}
+
+.top-stories:hover{
+    background-color: grey;
+}
+
+article{
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-top: solid 4px black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    height: 350px;
+    width: 500px;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Calibri';
+}
